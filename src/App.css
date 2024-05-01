@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact-row {
+  width: 102px;
+  margin: 0 auto;
+}
+img {
+  margin: 5px;
+}
+
+.a.contact-link{
+  margin: 0;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.card-section {
+    
+  width: 95%;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+  height: 255px;
+  padding: auto;
+  background-color: pink;
+  margin:60px auto;
+  border-radius: 12px;
+  overflow: auto;
+}
+
+input[type = text]{
+  width: 80%;
+  border: 2px solid pink;
+  font-family: 'Courier New', monospace;
+  border-radius: 4px;
+  height:40px;
+}
+
+input[type=submit] {
+  background-color: #f2f7f5; 
+  font-family: 'Courier New', monospace;
+  color: black;
+  border: none; 
+  width: 80%;
+  border-radius: 8px;
+  padding: 10px;
+
+
+}
+input[type=submit]:hover {
+  background-color: rgb(255, 231, 145);
+  color: rgb(148, 136, 136);
+  cursor:pointer;
+}
+
+
+*:focus {
+  outline: none;
+}
