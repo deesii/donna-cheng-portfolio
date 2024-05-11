@@ -13,7 +13,7 @@ export default function HomeNavBar (){
     return(
         <>
             <ul>
-                <li><Link to="/aboutme">about me</Link></li>
+                <li className = "hover:text-2xl"><Link to="/aboutme">about me</Link></li>
                 <li><Link to="/cv-pjts">cv projects</Link></li>
                 <li><Link to="/mini-pjts">mini projects</Link></li>
 
