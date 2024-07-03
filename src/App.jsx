@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import linkedinLogo from './assets/linkedin.svg'
 import githubLogo from './assets/github.svg'
 import HomeNavBar from './components/homenavbar'
+import Nav from './components/nav'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
             Donna Cheng
             </h1>
         </p>
+        <Nav />
         <p className= "hover:text-2xl">
           /deesii
         </p>
