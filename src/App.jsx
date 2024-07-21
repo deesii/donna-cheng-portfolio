@@ -22,10 +22,10 @@ function App() {
       </Link>
       <div className = "contact-row">
         <a className = "contact-link" href="https://www.linkedin.com/in/donna-cheng-deesii/" rel="nofollow noreferrer">
-          <img src={ linkedinLogo } alt="LinkedIn Image" />
+          <img src={ linkedinLogo } alt="LinkedIn Logo and Link" />
         </a>
         <a className = "contact-link" href="https://github.com/deesii" rel="nofollow noreferrer">
-          <img src={githubLogo} alt="GitHub Image" />
+          <img src={githubLogo} alt="GitHub Logo and Link" />
         </a>
       </div>  
       <HomeNavBar />

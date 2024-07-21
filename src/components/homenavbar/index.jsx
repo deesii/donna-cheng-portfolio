@@ -11,11 +11,12 @@ import Portfolio from "../Portfolio"
 
 export default function HomeNavBar (){
     return(
-        <>
+        <div>
+            <p></p>
             <ul>
                 <li className = "hover:text-2xl"><Link to="/aboutme">about me</Link></li>
-                <li><Link to="/cv-pjts">cv projects</Link></li>
-                <li><Link to="/mini-pjts">mini projects</Link></li>
+                <li className= "hover:text-2xl"><Link to="/cv-pjts">cv projects</Link></li>
+                <li className= "hover:text-2xl"><Link to="/mini-pjts">mini projects</Link></li>
 
             </ul>
             <Routes>
@@ -28,6 +29,6 @@ export default function HomeNavBar (){
                 <Route path="/cv-pjts/blueberriesbnb" element={<BlueberriesBnb/>} />
                 <Route path="cv-pjts/portfolio" element={<Portfolio/>} />
             </Routes>
-        </>
+        </div>
     )
 }
